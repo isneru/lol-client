@@ -37,7 +37,8 @@ module.exports = {
         }
       },
       backgroundImage: {
-        worldchamps17: "url('/group-worldchamps2017-splash.jpg')"
+        riven: "url('/riven.jpg')",
+        ashe: "url('/ashe.jpg')"
       }
     }
   },

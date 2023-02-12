@@ -25,7 +25,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.svg" />
       </Head>
-      <div className="h-screen w-screen bg-worldchamps17 bg-cover bg-no-repeat">
+      <div className="bg-ashe h-screen w-screen bg-cover bg-no-repeat">
         <main className="h-full w-[400px] bg-background px-14 pb-[54px] pt-[72px]">
           <div className="flex h-full w-full flex-col">
             <div className="flex w-full items-center justify-center">
