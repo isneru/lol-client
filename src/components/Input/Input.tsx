@@ -17,7 +17,7 @@ export const Input = ({ isPassword = false, ...props }: Props) => {
         onFocus={() => setIsPasswordFocused(true)}
         onBlur={() => setIsPasswordFocused(false)}
         type={isPasswordVisible ? "text" : "password"}
-        className="h-full w-full rounded bg-input-background px-4 placeholder:text-[10px] placeholder:font-black placeholder:text-input-placeholder focus:bg-background focus:outline-input-border "
+        className="h-full w-full rounded bg-input-background px-4 font-semibold text-input-border placeholder:text-[10px] placeholder:font-black placeholder:text-input-placeholder focus:bg-background focus:outline-input-border "
       />
       {isPasswordFocused && (
         <PasswordTextToggle
@@ -29,7 +29,7 @@ export const Input = ({ isPassword = false, ...props }: Props) => {
   ) : (
     <input
       {...props}
-      className="h-12 w-full rounded bg-input-background px-4 placeholder:text-[10px] placeholder:font-black placeholder:text-input-placeholder focus:bg-background focus:outline-input-border"
+      className="h-12 w-full rounded bg-input-background px-4 font-semibold text-input-border placeholder:text-[10px] placeholder:font-black placeholder:text-input-placeholder focus:bg-background focus:outline-input-border"
     />
   )
 }
